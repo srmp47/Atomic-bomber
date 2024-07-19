@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/PauseMenu.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.PauseMenuController">
+   <children>
+      <ImageView fitHeight="133.0" fitWidth="151.0" layoutX="323.0" layoutY="248.0" onMouseClicked="#mute" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/soundoffbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="110.0" fitWidth="151.0" layoutX="70.0" layoutY="252.0" onMouseClicked="#play" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/soundonbutton.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="133.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can change game music :" wrappingWidth="307.95506286621094">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="86.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#playGameMusic1" text="game music 1" />
+      <Button layoutX="248.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#playGameMusic2" text="game music 2" />
+      <Button layoutX="403.0" layoutY="119.0" mnemonicParsing="false" onMouseClicked="#playGameMusic3" text="game music 3" />
+   </children>
+</AnchorPane>

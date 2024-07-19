@@ -1,0 +1,31 @@
+.root {
+    -fx-background-color: #ececec;
+}
+
+.text {
+    -fx-fill: #333;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+}
+
+#userName, #password {
+    -fx-font-family: "Arial";
+    -fx-prompt-text-fill: #aaa;
+}
+
+.button {
+    -fx-background-color: #5a9bd4;
+    -fx-text-fill: #fff;
+    -fx-font-family: "Arial";
+    -fx-font-weight: normal;
+}
+
+.button:hover {
+    -fx-background-color: #4a89c4;
+    -fx-text-fill: #eef;
+}
+
+.text:hover {
+    -fx-cursor: hand;
+    -fx-fill: #02568b;
+}

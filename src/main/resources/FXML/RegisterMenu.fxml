@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/RegisterMenu.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RegisterMenuController">
+   <children>
+      <Text layoutX="242.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your username :" />
+      <TextField fx:id="userName" layoutX="225.0" layoutY="144.0" promptText="My Username" />
+      <Text layoutX="243.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your password :" />
+      <TextField fx:id="password" layoutX="226.0" layoutY="235.0" promptText="My Password" />
+      <Button layoutX="271.0" layoutY="291.0" mnemonicParsing="false" onMouseClicked="#register" text="Register" />
+      <Text fill="#230be3" layoutX="179.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register Menu" textAlignment="CENTER" wrappingWidth="240.53125">
+         <font>
+            <Font name="Stencil" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

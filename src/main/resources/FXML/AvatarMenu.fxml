@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/AvatarManuStyle.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AvatarMenuController">
+   <children>
+      <ImageView id="man1" fitHeight="150.0" fitWidth="200.0" layoutX="87.0" layoutY="37.0" onMouseClicked="#changeAvatar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/avatar1.png" />
+         </image>
+      </ImageView>
+      <ImageView id="man2" fitHeight="150.0" fitWidth="200.0" layoutX="229.0" layoutY="49.0" onMouseClicked="#changeAvatar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/avatar2.png" />
+         </image>
+      </ImageView>
+      <ImageView id="man3" fitHeight="150.0" fitWidth="200.0" layoutX="370.0" layoutY="44.0" onMouseClicked="#changeAvatar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/avatar3.png" />
+         </image>
+      </ImageView>
+      <ImageView id="woman1" fitHeight="150.0" fitWidth="200.0" layoutX="87.0" layoutY="180.0" onMouseClicked="#changeAvatar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/avatar4.png" />
+         </image>
+      </ImageView>
+      <ImageView id="woman2" fitHeight="150.0" fitWidth="200.0" layoutX="229.0" layoutY="187.0" onMouseClicked="#changeAvatar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/avatar5.png" />
+         </image>
+      </ImageView>
+      <ImageView id="woman3" fitHeight="150.0" fitWidth="200.0" layoutX="370.0" layoutY="183.0" onMouseClicked="#changeAvatar" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/avatar6.png" />
+         </image>
+      </ImageView>
+      <Text fill="#ff8900" layoutX="169.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avatar Menu" textAlignment="CENTER" wrappingWidth="249.666015625">
+         <font>
+            <Font name="Stencil" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="208.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a new avatar :" textAlignment="CENTER">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="19.0" />
+         </font>
+      </Text>
+      <Button layoutX="246.0" layoutY="373.0" mnemonicParsing="false" onMouseClicked="#goToMainMenu" text="Go to main menu" textFill="WHITE" />
+   </children>
+</AnchorPane>

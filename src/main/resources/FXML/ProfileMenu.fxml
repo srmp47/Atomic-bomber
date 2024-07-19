@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/ProfileMenu.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProfileMenuController">
+   <children>
+      <Text fill="#0abc16" layoutX="196.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile Menu">
+         <font>
+            <Font name="Stencil" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="249.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Username :" />
+      <Text layoutX="251.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Password :" />
+      <TextField fx:id="newUsername" layoutX="227.0" layoutY="70.0" promptText="My New Username" />
+      <TextField fx:id="newPassword" layoutX="226.0" layoutY="187.0" promptText="My New Password" />
+      <Button layoutX="244.0" layoutY="106.0" mnemonicParsing="false" onMouseClicked="#updateUserName" text="Update Username" />
+      <Button layoutX="245.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#updatePassword" text="Update Password" />
+      <Button layoutX="250.0" layoutY="269.0" mnemonicParsing="false" onMouseClicked="#deleteAccount" text="Delete Account" />
+      <Button layoutX="271.0" layoutY="308.0" mnemonicParsing="false" onMouseClicked="#logout" text="Logout" />
+      <Button layoutX="240.0" layoutY="351.0" mnemonicParsing="false" onMouseClicked="#goToAvatarMenu" text="Go To Avatar Menu " />
+
+   </children>
+</AnchorPane>

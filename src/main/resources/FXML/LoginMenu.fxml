@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/LoginMenu.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginMenuController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <Pane layoutX="-1.0" layoutY="2.0" prefHeight="400.0" prefWidth="600.0" />
+   </children>
+   <Text fill="#f20505" layoutX="48.0" layoutY="66.0" text="Welcome  to  atomic  bomber!" textAlignment="CENTER" wrappingWidth="504.2051086425781">
+      <font>
+         <Font name="Wide Latin" size="21.0" />
+      </font></Text>
+   <TextField fx:id="userName" layoutX="226.0" layoutY="116.0" promptText="My Username" />
+   <TextField fx:id="password" layoutX="226.0" layoutY="188.0" promptText="My Password" />
+   <Text layoutX="198.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your username :" textAlignment="CENTER" wrappingWidth="200.90781249999998" />
+   <Text layoutX="226.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your password :" textAlignment="CENTER" wrappingWidth="148.90781249999998" />
+   <Text layoutX="200.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="do you want to create new account? " textAlignment="CENTER" wrappingWidth="200.90781249999998" />
+   <Text fill="#037791" layoutX="274.0" layoutY="367.0" onMouseClicked="#goToRegisterMenu" strokeType="OUTSIDE" strokeWidth="0.0" text="click here" />
+   <Button layoutX="275.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#login" text="Login" />
+   <Button layoutX="246.0" layoutY="267.0" mnemonicParsing="false" onMouseClicked="#loginAsGuest" text="Login as a guest" />
+</Pane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/Settings.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SettingsController">
+   <children>
+      <Button layoutX="344.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#convertLevelToHard" text="Hard" />
+      <Text fill="#0d95a1" layoutX="223.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" textAlignment="CENTER">
+         <font>
+            <Font name="Stencil" size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="215.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Level of your game :" wrappingWidth="158.05810546875006" />
+      <Button layoutX="254.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#convertLevelToMedium" text="Medium" />
+      <Button layoutX="186.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#convertLevelToEasy" text="Easy" />
+      <Button layoutX="318.0" layoutY="187.0" mnemonicParsing="false" onMouseClicked="#muteMusic" text="Mute music" />
+      <Button layoutX="223.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#backToMainMenu" text="Back to main menu" />
+      <Button layoutX="184.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#changeColorToGray" text="Change color of game to gray" />
+      <Button layoutX="151.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#unmuteMusic" text="Unmute music" />
+   </children>
+</AnchorPane>

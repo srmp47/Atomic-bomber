@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: #ffffff;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+#man1, #man2, #man3, #woman1, #woman2, #woman3 {
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#man1:hover, #man2:hover, #man3:hover, #woman1:hover, #woman2:hover, #woman3:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.text {
+    -fx-fill: #ff8900;
+    -fx-font-family: "Arial";
+    -fx-font-weight: bold;
+    -fx-stroke-width: 0;
+}
+
+.button {
+    -fx-background-color: #ff8900;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #e67e22;
+}

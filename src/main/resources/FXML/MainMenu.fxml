@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../css/MainMenu.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainMenuController">
+   <children>
+      <Text layoutX="199.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Main Menu">
+         <font>
+            <Font name="Stencil" size="37.0" />
+         </font>
+      </Text>
+      <Text fx:id="textOfUserName" layoutX="273.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="userName" textAlignment="CENTER" />
+      <Button layoutX="242.0" layoutY="242.0" mnemonicParsing="false" onMouseClicked="#goToProfileMenu" text="Go to profile manu" />
+      <Button layoutX="261.0" layoutY="282.0" mnemonicParsing="false" onMouseClicked="#seeRanking" text="See ranking" />
+      <Button layoutX="250.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#startNewGame" text="Start new game" />
+      <Button layoutX="255.0" layoutY="324.0" mnemonicParsing="false" onMouseClicked="#goToSettings" text="Go to settings" />
+   </children>
+</AnchorPane>

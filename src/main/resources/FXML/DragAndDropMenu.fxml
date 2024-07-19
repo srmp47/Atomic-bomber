@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DragAndDropMenuController">
+   <children>
+      <Text layoutX="153.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Put your avatar here" textAlignment="CENTER">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button layoutX="280.0" layoutY="329.0" mnemonicParsing="false" onMouseClicked="#backToAvatarMenu" text="Back" />
+   </children>
+</AnchorPane>
